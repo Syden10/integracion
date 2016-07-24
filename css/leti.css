@@ -1,0 +1,96 @@
+#leti {
+  background-color: #363C44;
+}
+
+#leti header {
+  padding: 40px;
+}
+
+#leti header h1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 200;
+  font-size: 25px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  ffont-family: 'Roboto', sans-serif;
+}
+
+#leti header a {
+  display: inline-block;
+  color: #FFFFFF;
+  margin-left: 64px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px solid transparent;
+}
+
+#leti header a:first-child {
+  margin-left: 0;
+}
+
+#leti header a:hover {
+  border-bottom: 3px solid #FECD3D;
+  color: #FECD3D;
+}
+
+#leti article {
+  background-color: #FECD3D;
+  color: #363C44;
+  margin: 0 15px 30px;
+  padding-left: 32px;
+  padding-bottom: 5px;
+  padding-right: 32px;
+}
+
+#leti article h2 {
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 34px;
+}
+
+#leti article h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px;
+  min-height: 52px;
+}
+
+#leti article h4 {
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+#leti article p {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: justify;
+}
+
+#leti button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #363C44;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+}
+
+.extra {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 650px){  /* cuando sea menorr o igual a 650 px*/
+#leti header a {
+margin-left: 20px;
+/*margin: 10px 0px; /* le da margen 10 de abajo y arriba 0 de los costados*/
+}
+
+
