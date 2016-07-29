@@ -1,0 +1,41 @@
+body{
+	background-image: url("../img/bg.png");
+}
+
+.logo-1{
+	margin-left: 50px;
+}
+
+.nav-bar{
+	margin-right: 50px;
+	margin-top: 20px;
+
+}
+
+.naav{
+	color: black;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.espacio-1{
+	margin-top:150px; 
+}
+
+.espacio-2{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 100px;
+	margin-left: 42%;
+}
+
+.bttn{
+	background: transparent;
+	border-color: black;
+	border-radius: 0%;
+
+.big-text{
+	font-size: 50px;
+}
