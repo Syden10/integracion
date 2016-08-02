@@ -8,15 +8,15 @@ html, body {
 	font-size: 14px;
 }
 
-table {
+#nicov table {
 	margin-top: 50px;
 }
 
-table.table.table-bordered {
+#nicov table.table.table-bordered {
 	border: 1px solid #eee;
 }
 
-h3 {
+#nicov h3 {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
 	font-size: 32px;
@@ -25,7 +25,7 @@ h3 {
 	color: #383838;
 }
 
-.BForum {
+#nicov .BForum {
 	margin: 0 auto;
 	display: block;
 	border-radius: 14px;
@@ -38,29 +38,29 @@ h3 {
 	font-weight: 500;
 }
 
-table i.fa.fa-star {
+#nicov table i.fa.fa-star {
 	color: lightgray;
 }
 
-i.fa.fa-star.yellow {
+#nicov i.fa.fa-star.yellow {
 	color: gold;
 }
 
-.TableHeader {
+#nicov .TableHeader {
 	background: #FBFBFB;
 }
 
-.table>thead>tr>th {
+#nicov .table>thead>tr>th {
 	font-weight: 500;
 	padding: 20px 60px 20px 15px;
 }
 
-.table>tbody>tr>td {
+#nicov .table>tbody>tr>td {
 	padding: 20px 15px 20px 15px;
 	border: 1px solid #eee;
 }
 
-.table-bordered>thead>tr>th {
+#nicov .table-bordered>thead>tr>th {
 	/*border-width: 1px;*/
 	border: 1px solid #eee;
 }
