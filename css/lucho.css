@@ -1,4 +1,14 @@
+
+html {
+	height: 100%;
+}
+
 body{
+	height: 100%;
+}
+
+#luciano{
+	height: 100%;
 	background-image: url("../img/bg.png");
 }
 
@@ -21,7 +31,7 @@ body{
 }
 
 .espacio-1{
-	margin-top:150px; 
+	margin-top:150px;
 }
 
 .espacio-2{
