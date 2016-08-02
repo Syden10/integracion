@@ -4,26 +4,26 @@
   height: 500px;
 }
 
-.row {
+#nicoVC .row {
   margin-top: 7%;
 }
-h1 {
+#nicoVC h1 {
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
   text-align: right;
 }
-p {
+#nicoVC p {
   font-family: 'Roboto', sans-serif;
   color: white;
   text-align: right;
 }
 
-.col-md-6 {
+#nicoVC .col-md-6 {
     padding-left: 80px;
     padding-right:80px;
   }
 
-#boton {
+#nicoVC #boton {
   float: right;
   font-family: 'Roboto', sans-serif;
   font-size: 9pt;
