@@ -1,9 +1,10 @@
 /* ============================================================================
-   Coderhouse - Github project Integración
+   Coderhouse - Github project Integración - Nico Vázquez
 ============================================================================ */
 
 html, body {
-	font-family: "Roboto", sans-serif;
+	/*font-family: "Roboto", sans-serif;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 }
@@ -18,11 +19,11 @@ html, body {
 
 #nicov h3 {
 	text-align: center;
-	font-family: "Roboto", sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 32px;
 	font-weight: 300;
 	margin-top: 60px;
-	color: #383838;
+	color: #3D3D3D;
 }
 
 #nicov .BForum {
@@ -31,11 +32,18 @@ html, body {
 	border-radius: 14px;
 	background: transparent;
 	padding: 15px 50px;
-	border: 2px solid #383838;
-	color: #383838;
+	border: 2px solid #3D3D3D;
+	color: #3D3D3D;
 	margin-top: 50px;
 	font-size: 16px;
 	font-weight: 500;
+	margin-bottom: 60px;
+}
+
+#nicov .BForum:hover {
+	background: #3D3D3D;
+	color: white;
+	transition: .3s all ease-in-out;
 }
 
 #nicov table i.fa.fa-star {
@@ -63,4 +71,153 @@ html, body {
 #nicov .table-bordered>thead>tr>th {
 	/*border-width: 1px;*/
 	border: 1px solid #eee;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#guille {
+	background: #3D3D3D;
+	color: white;
+	padding: 60px;
+}
+
+#charly h1 {
+	text-align: center;
+	padding: 40px;
+}
+
+#charly h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#charly .thumbnail {
+	padding: 0;
+}
+
+.thumbnail .caption {
+	padding: 20px;
+}
+
+.thumbnail {
+	border-radius: 0px;
+}
+
+div.col-sm-6.col-md-4 {
+	margin-bottom: 125px;	
+}
+
+#Jose {
+	background: #3D3D3D;
+	height: 340px;
+	color: white;
+}
+
+div.col-md-offset-4.col-md-4 {
+	text-align: center;
+}
+
+div.col-md-offset-4.col-md-4 p {
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+div.col-md-offset-4.col-md-4 h1 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-top: 70px;
+}
+
+.btn {
+	margin: 0 auto;
+	display: block;
+	border-radius: 14px;
+	background: transparent;
+	padding: 15px 50px;
+	border: 2px solid white;
+	color: white;
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 60px;
+}
+
+.btn-default:hover {
+	border-color: #3d3d3d;
+}
+
+.btn:hover {
+	background: white;
+	color: #3D3D3D;
+	transition: .3s all ease-in-out;
+}
+
+button.btn.btn-default.btn-lg.bttn {
+	color: #3d3d3d;
+	border-color: #3d3d3d;
+	border-radius: 0px;
+}
+
+button.btn.btn-default.btn-lg.bttn:hover {
+	border-color: #3d3d3d;
+	background: #3d3d3d;
+	color: #FCCF28;
+}
+
+#footerguille a {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+#footerguille .blackfont a {
+	color: gray;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#luciano h1 {
+	font-weight: 200;
+}
+
+#nicoVC #boton {
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 38px;
+}
+
+#nicoVC #boton:hover {
+	background: white;
+	color: #9856D4;
+}
+
+#leti button:hover {
+	color: #363C44;
+	background: white;
+}
+
+#footerguille .navbar {
+	min-height: 0px;
+	margin: 0px;
+	height: 0px;
+}
+
+#footerguille .navbar .container {
+	height: 0px;
+}
+
+#footerguille li {
+	margin-left: 0px !important;
+}
+
+ul.pull-right {
+	margin-top: 10px;
+}
+
+#footerguille .navbar-nav>li>a {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
